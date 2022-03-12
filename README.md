@@ -25,3 +25,15 @@ Problems :
   
 
   
+Other files:
+
+        blinkgpio2.py  
+               This is a python script that when executed will blink an LED connected to GPIO-pin-2
+               execute like  :
+                       python3 blinkgpio2.py
+                       
+                       
+        50-cloud-init.yaml
+                This is a netplan file made for creating a wireless connection... 
+                More instruction in the file
+                Use at own risk.
