@@ -1,0 +1,30 @@
+# This file is generated from information provided by the datasource.  Changes
+# to it will not persist across an instance reboot.  To disable cloud-init's
+# network configuration capabilities, write a file
+# /etc/cloud/cloud.cfg.d/99-disable-network-config.cfg with the following:
+# network: {config: disabled}
+# This file is here to help getting the syntax right  /  Use at own risk
+#            make a local copy of the allready working yaml-file yust in case)
+#                             cp /etc/netplan/50-cloud-init.yaml 50-cloud-init.yaml.backup
+#            fix the SSIDs and the corresponding Passwords
+#                             nano 50-cloud-init.yaml
+#                             sudo cp  50-cloud-init.yaml /etc/netplan/50-cloud-init.yaml
+#                             sudo reboot
+#            
+network:
+    ethernets:
+        eth0:
+            dhcp4: false
+            addresses:
+              - 192.168.22.44/24
+            optional: true
+    version: 2
+    wifis:
+      wlan0:
+        dhcp4: true
+        optional: true
+        access-points:
+          "homessid":
+            password: "homepass"
+          "ITEK 1st":
+            password: "ITEK 1 pass"
