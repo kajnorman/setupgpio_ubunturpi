@@ -7,7 +7,7 @@ Script to update repositories and set permissions for using gpiozero on an ubunt
 
 After downloaad please inspect the script.
 
-The script will reboot the rpi after running.(needed)
+The script will reboot the rpi after running.(The reboot is needed)
 
 
 
