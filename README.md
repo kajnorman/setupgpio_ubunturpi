@@ -15,7 +15,7 @@ The script will reboot the rpi after running.(The reboot is needed)
 Preconditions :
 
   The script needs to be run with elevated (root) priviledges.
-  like :
+  like :  
     sudo bash setup_gpio.bash
  
   Network must be available as the script will update programs from remote repositories
