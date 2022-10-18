@@ -6,10 +6,10 @@ RPI 4 (tested on model B )
 Now testing on ubuntu server 22.04 64-bit
 RPI4
 
-Script to update repositories and set permissions for using gpiozero on an ubuntu server installed on Rpi.
+##Script to update repositories and set permissions for using gpiozero on an ubuntu server installed on Rpi.
 
  
-First:    
+###First  
 1.Flash sd-card,
 2.logon, 
 3.set keyboard (sudo nano /etc/default/keyboard), 
@@ -18,7 +18,8 @@ First:
 6.and a reboot
    
 
-After downloaad please inspect the script.
+###After
+downloaad please inspect the script.
 
 The script will reboot the rpi after running.(The reboot is needed)
 
