@@ -10,7 +10,9 @@
 #                             nano 50-cloud-init.yaml
 #                             sudo cp  50-cloud-init.yaml /etc/netplan/50-cloud-init.yaml
 #                             sudo reboot
-#            
+#
+#
+#The fixed address settings is supposed to work if the network is right for the ip numbers chosen            
 network:
     ethernets:
         eth0:
