@@ -3,7 +3,12 @@
 Ubuntu version 20.4.04
 RPI 4 (tested on model B )
 
+Now testing on ubuntu server 22.04 64-bit
+RPI4 model B (2018)
+
 Script to update repositories and set permissions for using gpiozero on an ubuntu server installed on Rpi.
+
+First Flash sd-card, logon, set keyboard (sudo nano /etc/default/keyboard), configure network (see yaml-file in directory)
 
 After downloaad please inspect the script.
 
