@@ -1,20 +1,20 @@
 #shell script for enabling gpiozero on the raspberry with ubuntu 20.4.04
 
-set -vxe    #e  will exit on any error...might beremoved ??
+#set -vxe    #e  will exit on any error...might beremoved ??
 
-if ping -c 1 -w 1 8.8.8.8
-then
+#if ping -c 1 -w 1 8.8.8.8
+#then
 
 
-apt -y update
+#apt -y update
 
 #apt -y upgrade
 
-apt -y install python3-pip
+#apt -y install python3-pip
 
-pip3  install gpiozero
+#pip3  install gpiozero
 
-apt -y install python3-gpiozero
+#apt -y install python3-gpiozero
 
 groupadd gpio
 
@@ -28,16 +28,16 @@ ENDRULES
 
 
 
-echo "press ctrl-C if you want to avoid a reboot"
+#echo "press ctrl-C if you want to avoid a reboot"
 
-sleep 10
+#sleep 10
 
-reboot
+#reboot
 
-else
-  echo "no network"
-  echo "ending the setup"
-fi
+#else
+#  echo "no network"
+#  echo "ending the setup"
+#fi
 
 
 
