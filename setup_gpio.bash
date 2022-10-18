@@ -8,7 +8,7 @@ then
 
 apt -y update
 
-apt -y upgrade
+#apt -y upgrade
 
 apt -y install python3-pip
 
@@ -28,7 +28,7 @@ ENDRULES
 
 
 
-echo "press ctrl-C to avoid a reboot"
+echo "press ctrl-C if you want to avoid a reboot"
 
 sleep 10
 
