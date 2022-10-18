@@ -16,7 +16,20 @@ RPI4
 4.configure network (see yaml-file in directory)
 5.sudo apt update  
 6.and a reboot
-   
+  
+  
+ 
+
+sudo apt -y update
+
+#sudo apt -y upgrade
+
+sudo apt -y install python3-pip
+
+sudo pip3  install gpiozero
+
+sudo apt -y install python3-gpiozero
+ 
 
 ###After
 downloaad please inspect the script.
