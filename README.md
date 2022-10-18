@@ -8,7 +8,7 @@ RPI4 model B (2018)
 
 Script to update repositories and set permissions for using gpiozero on an ubuntu server installed on Rpi.
 
-First Flash sd-card, logon, set keyboard (sudo nano /etc/default/keyboard), configure network (see yaml-file in directory)
+First: Flash sd-card, logon, set keyboard (sudo nano /etc/default/keyboard), configure network (see yaml-file in directory)
 
 After downloaad please inspect the script.
 
