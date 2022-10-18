@@ -1,20 +1,21 @@
 # setupgpio_ubunturpi
 
-Ubuntu version 20.4.04
+(Previously tested on Ubuntu version 20.4.04)
 RPI 4 (tested on model B )
 
 Now testing on ubuntu server 22.04 64-bit
-RPI4 model B (2018)
+RPI4
 
 Script to update repositories and set permissions for using gpiozero on an ubuntu server installed on Rpi.
 
-First: 
-   *Flash sd-card, 
-   *logon, 
-   *set keyboard (sudo nano /etc/default/keyboard), 
-   *configure network (see yaml-file in directory)
-   *sudo apt update  
-   *and a reboot
+ 
+First:    
+1.Flash sd-card,
+2.logon, 
+3.set keyboard (sudo nano /etc/default/keyboard), 
+4.configure network (see yaml-file in directory)
+5.sudo apt update  
+6.and a reboot
    
 
 After downloaad please inspect the script.
