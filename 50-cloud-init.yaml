@@ -28,3 +28,4 @@ network:
             password: "homepass"
           "ITEK 1st":
             password: "ITEK 1 pass"
+        addresses: [192.168.1.201/24, 10.110.0.201/24]
